@@ -35,6 +35,6 @@ svg {
 }
 @keyframes flying {
     100% {
-        transform: translateY(-700%);
+        transform: translateY(-800%);
     }
 }
