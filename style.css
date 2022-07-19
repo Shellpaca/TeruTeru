@@ -1,0 +1,40 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+}
+.container {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #87ceeb;
+    overflow: hidden;
+}
+svg {
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    height: 164px;
+    width: 88px;
+}
+@keyframes wobbling-vertical {
+    0% {
+        margin-bottom: 8px;
+    }
+    100% {
+        margin-bottom: 0px;
+    }
+}
+@keyframes wobbling-horizontal {
+    0% {
+        margin-left: 8px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+@keyframes flying {
+    100% {
+        transform: translateY(-650%);
+    }
+}
